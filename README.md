@@ -1,5 +1,4 @@
-invoicer GO app in Docker mage build with CircleCI
-==========================
+GO app:invoicer in Docker image builded with CircleCI
 
 A simple REST API that manages invoices.
 
