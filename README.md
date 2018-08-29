@@ -1,5 +1,4 @@
 GO app:invoicer in Docker image builded with CircleCI
-==========================
 
 A simple REST API that manages invoices.
 
