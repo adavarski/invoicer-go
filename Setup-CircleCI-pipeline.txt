@@ -1,0 +1,5 @@
+1.GitHub - create repo and create .circleci/config.yml
+2.Setup CircleCI project
+3.Configure Github Webhooks
+4.Configure CircleCI Variables: DOCKER_USER, DOCKER_PASS
+5.BUILD
