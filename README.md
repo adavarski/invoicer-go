@@ -1,4 +1,4 @@
-DevOps's invoicer GO_
+invoicer GO app in Docker mage build with CircleCI
 ==========================
 
 A simple REST API that manages invoices.
