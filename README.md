@@ -1,4 +1,5 @@
-GO app:invoicer in Docker image builded with CircleCI
+GO app invoicer in Docker image builded with CircleCI:webhook
+-----------------
 
 A simple REST API that manages invoices.
 
