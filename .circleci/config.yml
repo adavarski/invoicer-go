@@ -14,8 +14,8 @@ jobs:
       name: Setup environment
       command: |
        gb="/src/github.com/${CIRCLE_PROJECT_USERNAME}";
-       if [ ${CIRCLE_PROJECT_USERNAME} == 'adavarski' ]; then
-         dr="adavarski"
+       if [ ${CIRCLE_PROJECT_USERNAME} == 'Securing-DevOps' ]; then
+         dr="securingdevops"
        else
          dr=$DOCKER_USER
        fi
@@ -26,13 +26,12 @@ jobs:
        EOF
    - run: mkdir -p "${GOPATH_BASE}"
    - run: mkdir -p "${GOPATH_HEAD}/bin"
-       
+
    - run:
       name: Testing application
       command: |
           go test \
           github.com/${CIRCLE_PROJECT_USERNAME}/${CIRCLE_PROJECT_REPONAME}
-
    - deploy:
        command: |
          if [ "${CIRCLE_BRANCH}" == "master" ]; then
