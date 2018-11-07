@@ -1,3 +1,6 @@
+
+[![CircleCI](https://circleci.com/gh/adavarski/invoicer-go/tree/master.svg?style=svg)](https://circleci.com/gh/adavarski/invoicer-go)
+
 GO app invoicer in Docker image builded with CircleCI:webhook
 -----------------
 
